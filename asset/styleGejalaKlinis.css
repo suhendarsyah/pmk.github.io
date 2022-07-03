@@ -34,8 +34,11 @@ figure {
 }
 
 /*untuk layar device berukuran kecil*/
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 370px) {
   .fotoGaleri {
     flex-direction: column;
+  }
+  figure img {
+    width: 200px;
   }
 }
