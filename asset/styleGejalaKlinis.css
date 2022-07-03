@@ -1,36 +1,41 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.container{
-    width: 80%;
-    margin: auto;
+.container {
+  width: 80%;
+  margin: auto;
 }
 
-.gejalaKlinis a{
-    color: white;
+.gejalaKlinis a {
+  color: white;
 }
 
 body p {
-    text-align: justify;
+  text-align: justify;
 }
 
-.fotoGaleri{
-    display: flex;
-    text-align: center;
-    margin-top: 50px;
-    
+.fotoGaleri {
+  display: flex;
+  text-align: center;
+  margin-top: 50px;
 }
 
-figure{
-    margin: 10px;
-    padding: 5px;
-    border: 2px solid #707070;
-    flex: 1;
+figure {
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid #707070;
+  flex: 1;
 }
 
-.fotoGaleri figcaption{
-    text-align: justify;
+.fotoGaleri figcaption {
+  text-align: justify;
 }
 
+/*untuk layar device berukuran kecil*/
+@media screen and (min-width: 450px) {
+  .fotoGaleri {
+    flex-direction: column;
+  }
+}

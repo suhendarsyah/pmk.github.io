@@ -15,6 +15,11 @@
     font-size: 32px;
 }
 
+.navbar-brand span{
+    font-family: 'Romanesco', cursive;
+    letter-spacing: 3px;
+}
+
 .nav-link {
     text-transform: uppercase;
     margin-right: 30px;
